@@ -14,14 +14,14 @@ body{
 	position: relative;	
 }
 .floatright{
-	width: 1519px;
+	width: 1552px;
 	height: 100%;
 	position: relative;
 	margin: 0px;
 }
 #logo{
 	font-size: 20px;
-	padding: 2rem 0;
+	padding: 2rem 1rem;
 	text-align: center;
 	font-family: Trebuchet MS;
 	text-shadow: 0 .5rem 1rem #000;

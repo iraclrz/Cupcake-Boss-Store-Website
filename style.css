@@ -3,13 +3,13 @@ body{
 	background-color: #FEA3AA;
 	color: #FFFFFF;
 	font-family: Trebuchet MS;
+	overflow-x: hidden; /* Disable horizontal scrollbar */
 }
 #container{
 	margin-left: -8px;
 	margin-top: -8px;
 	height: 550px;
 	width: 1513px;
-	
 	padding: 0px;
 	position: relative;	
 }
@@ -39,7 +39,7 @@ body{
 	width: 1519px;
 }
 .navigation{
-	width:1519px;
+	width:1551px;
 	height:55px;
 	border-bottom-style: solid;
 	background-color: #FEA3AA;
@@ -78,8 +78,9 @@ body{
 	text-align: center;
 	font-style: italic;
 	width: 1519px;
-	margin-top: 45px;
+	margin-top: 45px; 
 	padding-top: 10px;
+	margin-bottom: 10px;
 }
 .about{
 	margin-top:17px;
@@ -104,6 +105,7 @@ body{
 	text-align: center;
 	border-bottom-style: solid;
 	height: 100px;
+	width: 95.5rem;
 	margin-top: -10px;
 	margin-left: -10px;
 	margin-right: -10px;
@@ -421,7 +423,7 @@ body{
 .job_salary span{ 
 	color: #000000;
 }
-.job_card: active{
+.job_card:active{
 	border: 2px solid blueviolet;
 	transition: 0.4s;
 }
